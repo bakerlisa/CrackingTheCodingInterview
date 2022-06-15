@@ -7,7 +7,7 @@ JS soultions to the interview questions found in the 6th edtion of Cracking the 
 Site link: https://www.crackingthecodinginterview.com/
 <br/>
  
- ### Interviewing is hard, but a life without laughs is even harder!
+ ### Interviewing is hard, but a life without laughs is even harder! Keep life in perspective
  ![](https://github.com/lisabroadhead/CrackingTheCodingInterview/blob/main/0_G2xt1UgNhlPASYz5.jpeg) 
  
 
