@@ -1,7 +1,6 @@
 # CrackingTheCodingInterview
 
-JS soultions to the interview questions found in the 6th edtion of Cracking the Coding Interview by Gayle Laakmann McDowell 
-Also included in entries are resources to better understand the material or further explain the code
+JS soultions to the interview questions found in the 6th edtion of Cracking the Coding Interview by Gayle Laakmann McDowell. Also included in entries are resources to better understand the material or further explain the code
 
 <br/>
 Site link: https://www.crackingthecodinginterview.com/
