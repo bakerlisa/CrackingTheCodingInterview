@@ -5,7 +5,7 @@ JS soultions to the interview questions found in the 6th edtion of Cracking the 
 <br/>
 Site link: https://www.crackingthecodinginterview.com/
 <br/>
- ![](https://github.com/lisabroadhead/CrackingTheCodingInterview/blob/main/41oYsXjLvZL._SX348_BO1%2C204%2C203%2C200_.jpg)
+![](https://github.com/lisabroadhead/CrackingTheCodingInterview/blob/main/41oYsXjLvZL._SX348_BO1%2C204%2C203%2C200_.jpg)
 <br/>
  
  ### Interviewing is hard, but a life without laughs is even harder!
