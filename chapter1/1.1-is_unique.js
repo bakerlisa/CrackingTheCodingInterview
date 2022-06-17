@@ -12,10 +12,12 @@ const isUnique = (string) => {
         }else{
             return false;
         }
-        return true;
     }
+    return true;
 }
 
-console.log(isUnique('yOu fRack this end'))
+// console.log(isUnique('yOu fRack this end'))
+// console.log(isUnique('Quack a doodle'))
+console.log(isUnique('Quack  dole'))
 
 // 2. What if you cannot use additionl data structures?
