@@ -2,6 +2,9 @@
 // Given a string check to see if the string is a palindrome, spaces and 
 // Plaindrome: It's tje same backwards as it is forwards: taco cat
 
+
+// Looks at 2 specific strings
+
 const palindrome = (pal,str) => {
     // removes sapces, and all unique characters
     pal = pal.replace(" ", "").replace(/[^a-z0-9]/gi, '').toLowerCase()
