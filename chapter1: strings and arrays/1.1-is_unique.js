@@ -1,4 +1,5 @@
-// 1. Implament an alogritum to determine if a string has all unique characters. 
+// 1.1 Is Unique
+// Implament an alogritum to determine if a string has all unique characters. 
 // only looking at lowercase alaphabet characters
 
 const isUnique = (string) => {

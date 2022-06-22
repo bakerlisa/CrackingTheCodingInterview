@@ -1,3 +1,4 @@
+// 1.2 Check Permutation
 // Given two strings, write a method to decide if one is permutation of the other
 // permutation : Two strings are a permutatuin if they have the same characters, but in a different order
 
