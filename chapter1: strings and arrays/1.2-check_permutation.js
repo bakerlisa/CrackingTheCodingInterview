@@ -16,9 +16,7 @@ const permutation = (str1, str2) => {
     }
     
     for(var j=0; j<str2.length;j++){
-        if(!loader[str2[j]]){
-            return false
-        }else if(loader[str2[j]] && loader[str2[j]]-1 >= 0){
+        if(loader[str2[j]] && loader[str2[j]]-1 >= 0){
             loader[str2[j]] = loader[str2[j]]-1
         }else{
             return false
@@ -28,5 +26,3 @@ const permutation = (str1, str2) => {
 }
 
 console.log(permutation("I'm a string!", "mat is fring!"))
-//,r,i,n,g
-// mat is ring
