@@ -8,7 +8,7 @@ const permutation = (str1, str2) => {
     str2 =  str2.replace(/[^a-z0-9]/gi, '').toLowerCase();
     const loader = {}
 
-    for(var i=0; i<str1.length;i++){
+    for(let i=0; i<str1.length;i++){
         if(loader[str1[i]]){
             loader[str1[i]] = loader[str1[i]]+1
         }else{
@@ -16,7 +16,7 @@ const permutation = (str1, str2) => {
         }
     }
     
-    for(var j=0; j<str2.length;j++){
+    for(let j=0; j<str2.length;j++){
         if(loader[str2[j]] && loader[str2[j]]-1 >= 0){
             loader[str2[j]] = loader[str2[j]]-1
         }else{

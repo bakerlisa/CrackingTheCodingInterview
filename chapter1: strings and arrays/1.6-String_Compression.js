@@ -3,7 +3,13 @@
 // You can assume the string is only upper and lowercase numbers
 
 const stringCompression = (str) => {
+    let compressed = {}
+    let runner = 0;
 
+    for(let i=0;i<str.length;i++){
+        console.log(str[i])
+        runner = i;
+    }
 }
 
 console.log(stringCompression('aaabbbcccdddeee'))

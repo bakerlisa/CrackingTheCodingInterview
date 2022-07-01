@@ -5,11 +5,11 @@
 const URLify = (str) => {
     // removes white space from the begingin & end
     str = str.trim()
-    var str1 = str[0];
+    let str1 = str[0];
 
     // removes any extra spaces in the string
-    var pervious = 0
-    for(var i=1; i<str.length;i++){
+    let pervious = 0
+    for(let i=1; i<str.length;i++){
         if(str[pervious] === ' '  && str[i] === ' '){
             continue
         }else{

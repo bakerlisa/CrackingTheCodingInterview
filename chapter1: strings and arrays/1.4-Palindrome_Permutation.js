@@ -13,8 +13,8 @@ const palindrome = (pal,str) => {
     if(pal.length != str.length ){
         return false
     }else{
-        var runner = pal.length -1;
-        for(var i=0;i<Math.ceil(pal.length);i++){
+        let runner = pal.length -1;
+        for(let i=0;i<Math.ceil(pal.length);i++){
             if(pal[i] != str[runner]){
                 return false;
             }
