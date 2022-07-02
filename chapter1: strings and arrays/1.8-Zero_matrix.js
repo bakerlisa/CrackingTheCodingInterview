@@ -1,11 +1,12 @@
 // 1.8 Zero Matrix
 
+// made a whole new matrix
 const zeroMatric = (matrix) => {
     let newMatrix = []
     let row = []
     let zeros = false;
     let position = [];
-    
+
     // takes care of the rows
     for(let i=0;i<matrix.length;i++){
         for(let j=0; j<matrix[i].length;j++ ){
@@ -43,6 +44,10 @@ const zeroMatric = (matrix) => {
 console.log(zeroMatric([[0,2,5,2],[1,0,5,2],[5,4,6,1],[5,3,5,1]]))
 
 
+// Inline changes, and we have a array to check for which values to not change in each row
+
+
+
 
 
 // [1,2,5,2],
@@ -50,5 +55,8 @@ console.log(zeroMatric([[0,2,5,2],[1,0,5,2],[5,4,6,1],[5,3,5,1]]))
 // [5,4,6,0],
 // [5,3,5,1]
 
-// 1. inline changes, and we have a array to check for which values to not change in each row
-// 2. make a hole new matrix
+
+
+// ================ Making it better? ================
+// Can we use map or filter here?
+// 
