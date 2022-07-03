@@ -41,13 +41,14 @@ const zeroMatric = (matrix) => {
     return newMatrix;
 }
 
-console.log(zeroMatric([[0,2,5,2],[1,0,5,2],[5,4,6,1],[5,3,5,1]]))
+// console.log(zeroMatric([[0,2,5,2],[1,0,5,2],[5,4,6,1],[5,3,5,1]]))
 
 
 // Inline changes, and we have a array to check for which values to not change in each row
-
-
-
+const zeroMatricTwo = (matrix) => {
+    matrix.filter((item,i) => console.log(item[i]))
+}
+// console.log(zeroMatricTwo([[0,2,5,2],[1,0,5,2],[5,4,6,1],[5,3,5,1]]))
 
 
 // [1,2,5,2],
